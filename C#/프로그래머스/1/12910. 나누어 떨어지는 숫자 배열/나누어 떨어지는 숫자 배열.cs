@@ -4,13 +4,11 @@ public class Solution {
     public int[] solution(int[] arr, int divisor) {
         List<int> list = new List<int>();
         
-        int i = 0;
         foreach(var num in arr)
         {
             if(num % divisor == 0)
             {
                 list.Add(num);
-                i++;
             }
         }
         
